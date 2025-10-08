@@ -1,6 +1,7 @@
-# Projeto de Análise de Vendas Loja TECH+
+# Projeto de Análise de Vendas
 
-Exemplo de análise de dados com Python e SQL para o processo seletivo da Backlgrs.
+Exemplo de análise de dados com Python e SQL com foco em manipulação com Pandas.
+
 
 ## Objetivo
 - Explorar dados de clientes, produtos e vendas.
@@ -9,28 +10,33 @@ Exemplo de análise de dados com Python e SQL para o processo seletivo da Backlg
   - Produtos mais vendidos
   - Receita por região
   - Evolução mensal da receita
+- De maneira acadêmica aprender e praticar as tecnologias.
 
 ## Estrutura
-- `notebooks/` → Código do projeto
-- `data/` → Arquivos CSV
-- `queries/` → Queries SQL utilizadas
+- `notebook/` → Código do projeto
+- `data_in_csv/` → Database em formato CSV
+- `create_queries/` → Criar a Database em seu ambiente
+- `printscreens/` → Prints demonstrativas dos resultados
 
 ## Requisitos
-- Python 3.x  
+- Python 3
+- MySQL
 - Bibliotecas: `pandas`, `mysql-connector-python`, `matplotlib`  
 
-Instalação:
+## Instalação:
 
-```bash
-pip install pandas mysql-connector-python matplotlib
-Como rodar
-Configurar a conexão MySQL no notebook.
+- bash
+`pip install pandas mysql-connector-python matplotlib`
 
-Executar o notebook.
 
-As métricas e gráficos aparecerão diretamente.
+## Como rodar
 
-Observação
-Dados de exemplo para demonstração.
+- Executar os comandos de criação do Banco de Dados na pasta `create_queries/`
+- Configurar a conexão MySQL no notebook.
+- Executar o notebook.
+- As métricas e gráficos aparecerão diretamente.
 
-Análises feitas no Pandas para mostrar raciocínio e manipulação de dados.
+## Observação
+
+- Dados fictícios de exemplo para demonstração e criados por inteligência artificial;
+- Análises feitas no Pandas para mostrar raciocínio e manipulação de dados.
